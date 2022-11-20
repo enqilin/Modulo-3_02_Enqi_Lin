@@ -1,16 +1,11 @@
-
-while True:
-  a=input("Introduce un número: ")
-  b=input("Introduce un número: ")
+x=7
+y=0
+def dividir(x,y)
   try:
-    a=int(a)
-    b=int(b)
-    x=a/b
-    print(x)
+    x/y
     
-    break
   except ZeroDivisionError:
-    print("No se puede dividir por el zero. ")
+    print("No se puede dividir por el zero, ")
     
     
 
